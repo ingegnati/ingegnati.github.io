@@ -1,21 +1,14 @@
+/* General */
+.uppercase {
+    text-transform: uppercase;
+}
+
 .section1, .section4, .section7 {
     padding: 0px;
 }
 
 .navbar {
  height:32px; 
-}
-
-.parallax1 {
-    min-height: 700px;
-    padding: 200px 50px;
-    background: transparent;
-    background-size: cover;
-}
-.s1-nav {
-    z-index: 2;
-    position: relative;
-    margin-top: -190px;
 }
 
 .navbar {
@@ -36,6 +29,19 @@
     color: #595959;
     display: block;
     text-decoration: none;
+}
+
+.parallax1 {
+    min-height: 700px;
+    padding: 200px 50px;
+    background: transparent;
+    background-size: cover;
+}
+
+.s1-nav {
+    z-index: 2;
+    position: relative;
+    margin-top: -190px;
 }
 
 .effect-underline:after {
@@ -348,6 +354,7 @@
     text-align: center;
     cursor: default;
 }
+
 .hovereffect2 .overlay2 {
     width: 100%;
     position: absolute;
@@ -401,6 +408,7 @@
 	margin: 50px 0 0 0;
 	background-color: transparent;
 }
+
 .hovereffect2 a.info:hover {
     box-shadow: 0 0 5px #fff;
 }
@@ -595,28 +603,4 @@ a.effect-shine:hover {
     border-color: #101010;
     text-decoration: none;
     transition-duration: 0.8s;
-}
-
-.footer {
-    min-height: 200px;
-    padding-top: 40px; 
-}
-
-.footer-list{
-    padding-inline-start: 0px;
-}
-
-.footer-text {
-    font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 26px;
-    line-height: 1.75;
-    font-family: Muli, sans-serif;
-    letter-spacing: 0em;
-    color: #595959;
-}
-
-.footer-name {
-    font-family: 'Dancing Script', cursive;
-    font-weight: bold;
 }

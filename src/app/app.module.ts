@@ -11,6 +11,7 @@ import { SidebarComponent } from './layout/sidebar/sidebar.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { HomeComponent } from './core/home/home.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { ChiSiamoComponent } from './pages/chi-siamo/chi-siamo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
     SidebarComponent,
     NavbarComponent,
     HomeComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    ChiSiamoComponent
   ],
   imports: [
     BrowserModule,

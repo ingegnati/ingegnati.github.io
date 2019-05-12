@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  title = 'ingegnati';
+  motto = 'Una comunità di sviluppatori che si ingegna';
 
   constructor() { }
 

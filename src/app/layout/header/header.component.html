@@ -1,5 +1,5 @@
 <!-- section-1 -->
-  <div class="parallax1" data-parallax="scroll" data-z-index="1">
+  <div class="parallax1" data-parallax="scroll" data-z-index="1" *ngIf="router.url == '/home'">
 
     <div class="row s1-nav">
       <div class="col-sm-12">
@@ -36,7 +36,7 @@
                 <a class="nav-link effect-underline" routerLink="/home" routerLinkActive="active">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link effect-underline">CHI SIAMO</a>
+                <a class="nav-link effect-underline uppercase" routerLink="/chi-siamo">Chi siamo</a>
               </li>
               <li ngbDropdown class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
@@ -44,9 +44,9 @@
                     BLOG
                   </a>
                   <div ngbDropdownMenu aria-labelledby="navbarDropdownMenuLink">
-                    <button ngbDropdownItem><a href="https://www.torre.me.uk">alfredo.ingegnait.it</a></button>
-                    <button ngbDropdownItem>carmelo.ingegnait.it</button>
-                    <button ngbDropdownItem>matteo.ingegnait.it</button>
+                    <button ngbDropdownItem><a href="https://www.torre.me.uk">alfredo.ingegnati.it</a></button>
+                    <button ngbDropdownItem>carmelo.ingegnati.it</button>
+                    <button ngbDropdownItem>matteo.ingegnati.it</button>
                   </div>
                 </li>
             </ul>
@@ -62,7 +62,7 @@
         </div>
         <div class="col-sm-12 text-center">
           <div class="typewriter">
-            <h5 class="s1-subtitle mx-5">BENVENUTI SU {{ title | uppercase }}</h5>
+            <h5 class="s1-subtitle mx-5">{{ title | uppercase }}</h5>
           </div>
         </div>
         <div class="col-sm-12 text-center ">

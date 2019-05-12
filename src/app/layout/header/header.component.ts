@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  title = 'ingegnati';
+  title = 'ingegnati.it';
   motto = 'Sviluppatori che si ingegnano';
 
   constructor(public router: Router) { }

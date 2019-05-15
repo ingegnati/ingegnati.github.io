@@ -6,6 +6,31 @@
     background-image: url('../../../assets/img/bg2.jpg');
 }
 
+.pages-header {
+    padding: 5px 50px 1px 50px;
+    background: transparent;
+    background-size: cover;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.s1-nav {
+    z-index: 2;
+    position: relative;
+    margin-top: -190px;
+}
+
+.pages-nav {
+    z-index: 2;
+    position: relative; 
+}
+
 li.nav-item {
     cursor: pointer;
+}
+
+.header-logo {
+    padding-left: 2em;
+    height: 50px;
 }

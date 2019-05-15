@@ -44,3 +44,9 @@
     font-size: 54px;
   }
 }
+
+@media (max-width: 991px) {
+  .navbar.mt-4 {
+    margin-top: -0.3em !important;
+  }
+}

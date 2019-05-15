@@ -4,12 +4,16 @@
 // If you want to add something do it here
 @import "scss/custom";
 
-$fa-font-path: "~font-awesome/fonts";
-@import "~font-awesome/scss/font-awesome";
+@import "scss/media";
+
+// $fa-font-path: "~font-awesome/fonts";
+// @import "~font-awesome/scss/font-awesome";
+@import "~material-design-icons/iconfont/material-icons.css";
+$ionicons-font-path: "~ionicons/dist/fonts";
+@import "~ionicons/dist/scss/ionicons.scss";
 
 // Google Lato TTF => https://fonts.google.com/specimen/Lato?selection.family=Lato
-// To add the ultra-thick weight you have to add the 900 (but it adds latency to the page)
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Hind|Dancing+Script|Josefin+Sans|Lato|Open+Sans|Muli');
 
 // Default Bootstrap 4
 @import "~bootstrap/scss/bootstrap"

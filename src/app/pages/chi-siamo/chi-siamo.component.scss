@@ -1,0 +1,50 @@
+/* See: https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/css/clean-blog.css */
+.container {
+  margin-top: 2em;
+}
+
+blockquote {
+  font-style: italic;
+  color: #868e96;
+}
+
+h2.section-heading {
+    font-size: 2.1rem;
+    margin-bottom: 0.5rem;
+}
+
+h3.section-heading {
+    font-size: 1.5rem;
+}
+
+.section-heading {
+  font-weight: 700;
+  margin-top: 60px;
+}
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+::selection {
+  color: #fff;
+  background: #0085a1;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}

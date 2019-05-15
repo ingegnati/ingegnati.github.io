@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -6,8 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+  title = 'ingegnati.it';
+  motto = 'Sviluppatori che si ingegnano';
 
-  constructor() { }
+  constructor(public router: Router) { }
 
   ngOnInit() {
   }
